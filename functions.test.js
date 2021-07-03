@@ -74,7 +74,7 @@ describe('multiplyEachDigits', () => {
     const result = multiplyEachDigits(list, -1);
 
     // Assert
-    expect(result).toEqual([4, 8, -9, 2, -5, 8, -4, 9]);
+    expect(result).toEqual([-4, 8, -9, 2, -5, 8, -4, 9]);
   });
 });
 
